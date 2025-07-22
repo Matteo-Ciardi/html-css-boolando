@@ -16,6 +16,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 header {
@@ -46,7 +47,6 @@ nav {
 }
 
 .categories a {
-    color: #fff;
     font-weight: 700;
     margin: 5px;
 }
@@ -111,3 +111,16 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
+/* Footer */
+footer {
+    background-color: #1A1A1A;
+    color: #fff;
+}
+
+footer .container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
