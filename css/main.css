@@ -72,7 +72,6 @@ nav {
 }
 
 /* Card */
-
 .product-card {
     position: relative;
     width: 100%;
@@ -89,6 +88,11 @@ nav {
     background-color: #fff;
     padding: 5px 15px;
     font-size: 2em;
+    cursor: pointer;
+}
+
+.favorite:hover {
+    color: red;
 }
 
 .label {
