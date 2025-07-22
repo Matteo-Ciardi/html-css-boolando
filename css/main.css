@@ -75,11 +75,28 @@ nav {
 .product-card {
     position: relative;
     width: 100%;
+    cursor: pointer;
 }
 
 .product-card img {
     width: 100%;
 }
+
+/* Effetto hover immagini */
+.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.figure:hover .image-hover {
+    opacity: 1;
+}
+/*--------------------------------------------*/
 
 .favorite {
     position: absolute;
@@ -91,9 +108,11 @@ nav {
     cursor: pointer;
 }
 
+/* Effetto hover cuore */
 .favorite:hover {
     color: red;
 }
+/*--------------------------------------------*/
 
 .label {
     position: absolute;
