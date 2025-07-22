@@ -26,6 +26,7 @@ header {
     margin-bottom: 50px;
     padding: 20px 0;
     background-color: #FF6900;
+    box-shadow: #8e8e8e 1px 1px 5px 1px;
 }
 
 /* Utils */
