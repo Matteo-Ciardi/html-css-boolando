@@ -19,23 +19,25 @@ a {
     text-decoration: none;
 }
 
-/* Header */
-nav {
-    
-    padding: 15px 0;
+header {
+    padding: 20px 0;
     background-color: #FF6900;
 }
 
-.container {
+/* Header */
+nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 80%;
+}
+
+.container {
+    width: 70%;
     margin: 0 auto;
 }
 
 #logo {
-    height: 40px;
+    height: 30px;
 }
 
 .categories {
@@ -55,5 +57,11 @@ nav {
 .user-zone a {
     color: #fff;
     margin: 5px;
-    font-size: 1.3em;
+}
+
+/* Main */
+.product-card {
+    /* DEBUG */
+    /* height: 200px; */
+    /* background-color: violet; */
 }
