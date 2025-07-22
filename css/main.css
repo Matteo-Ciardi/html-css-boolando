@@ -20,6 +20,9 @@ a {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     margin-bottom: 50px;
     padding: 20px 0;
     background-color: #FF6900;
@@ -70,8 +73,6 @@ nav {
 .product-card {
     position: relative;
     width: 100%;
-    /* DEBUG */
-    /* height: 700px; */
     background-color: violet;
 }
 
