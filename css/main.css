@@ -21,11 +21,17 @@ a {
 
 /* Header */
 nav {
+    
+    padding: 15px 0;
+    background-color: #FF6900;
+}
+
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 0;
-    background-color: #FF6900;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #logo {
@@ -34,7 +40,6 @@ nav {
 
 .categories {
     display: flex;
-
 }
 
 .categories a {
@@ -50,4 +55,5 @@ nav {
 .user-zone a {
     color: #fff;
     margin: 5px;
+    font-size: 1.3em;
 }
