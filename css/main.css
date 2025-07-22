@@ -5,3 +5,13 @@
     box-sizing: border-box;
 }
 
+/* Generics */
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
