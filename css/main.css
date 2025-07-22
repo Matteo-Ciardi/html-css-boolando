@@ -6,7 +6,6 @@
 }
 
 /* Generics */
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,8 +19,15 @@ a {
 }
 
 header {
+    margin-bottom: 50px;
     padding: 20px 0;
     background-color: #FF6900;
+}
+
+/* Utils */
+.container {
+    width: 70%;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -29,11 +35,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.container {
-    width: 70%;
-    margin: 0 auto;
 }
 
 #logo {
@@ -60,8 +61,14 @@ nav {
 }
 
 /* Main */
+.row {
+    display: flex;
+    gap: calc(50px / 3);
+}
+
 .product-card {
     /* DEBUG */
-    /* height: 200px; */
-    /* background-color: violet; */
+    width: 100%;
+    height: 200px;
+    background-color: violet;
 }
